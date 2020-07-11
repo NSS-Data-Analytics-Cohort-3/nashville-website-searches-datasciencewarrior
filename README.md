@@ -10,13 +10,13 @@
 3. Enter the text “Max queries:” in cell `M3` and enter the maximum query count in `N3` using a formula.
 
 4. Sort the data by `column D` (Query Count).    
-    a. When did the maximum query count occur?  
-    b. What was the Query Text?  
+    a. When did the maximum query count occur? September 9, 2019
+    b. What was the Query Text?  test
     c. What do you notice about the top 5 searches?  
 
-5. Enter the text “Year is number: “ in `M4`. Use a formula in `N4` to check the first value in the Year column (C) to see if it is a number.
+5. Enter the text “Year is number: “ in `M4`. Use a formula in `N4` to check the first value in the Year column (C) to see if it is a number. 1 means it is a number data type.
 
-6. Enter the text “Query Count is number: “ in `M5`. Use a formula in `N5` to check the first value in the Query Count column (D) to see if it is a number.
+6. Enter the text “Query Count is number: “ in `M5`. Use a formula in `N5` to check the first value in the Query Count column (D) to see if it is a number. yes it is a number. 
 
 7. Enter the text “Map searches:” in `M7`. 
 8. Enter “Count” in cell `N6`. Below it in `N7`, use a `COUNTIF()` formula to find the number of months that “maps” appeared in the top 500 monthly searches.
@@ -47,13 +47,15 @@
 14. Create a header at the top of column F called “Month Num”. Use a `VLOOKUP` to match the month name in the Month column (A) to the lookup table in `M12`:`N23` in order to populate the “Month Num” in column F.
 
 15. Select columns A through F and create a custom sort (Home --> Sort & Filter --> Custom Sort). 
-16. Sort by the largest to smallest Year as your first level, Month Num largest to smallest as your second value, and Query Text A-Z as your third level. Scroll through to find how many times “fairgrounds” was searched in July 2018.
+16. Sort by the largest to smallest Year as your first level, Month Num largest to smallest as your second value, and Query Text A-Z as your third level. Scroll through to find how many times “fairgrounds” was searched in July 2018. 21 times
 
-17. Find which month in 2016 had the most searches for “fire”. Try to use a Custom Sort to save yourself from too much scrolling up and down.
+17. Find which month in 2016 had the most searches for “fire”. Try to use a Custom Sort to save yourself from too much scrolling up and down. August
 
 18. Enter text (“all query counts over 100:” in `M8` and use `COUNTIF()` in `N8` to count the number of times a query was run more than 100 times in a given month.
 
 19. Enter text (“query for codes over 100 times:”) in `M9` and use `COUNTIFS()` in `N9` to find the number of times users searched for ‘codes’ more than 100 times in a given month.
 
-20. Create a new column (G) with a header of “Volume”. Populate this column with one of 3 categories: ‘Low’, ‘Medium’, ‘High’. Low volume searches happened less than 50 times in a month, medium volume searches happened between 50 and 100 times in a month (inclusive), and high volume searches were conducted more than 100 times in a month.
+20. Create a new column (H) with a header of “Volume”. Populate this column with one of 3 categories: ‘Low’, ‘Medium’, ‘High’. Low volume searches happened less than 50 times in a month, medium volume searches happened between 50 and 100 times in a month (inclusive), and high volume searches were conducted more than 100 times in a month.
 
+ I moved the rank over a column and put the "Volume" values in column G
+I feel like its dealer's choice though
